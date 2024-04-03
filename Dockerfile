@@ -35,7 +35,7 @@ RUN \
   fi && \
   curl -o \
     /tmp/calibre-web.tar.gz -L \
-    https://github.com/janeczku/calibre-web/archive/${CALIBREWEB_RELEASE}.tar.gz && \
+    https://api.github.com/repos/klementng/calibre-web/tarball/master && \
   mkdir -p \
     /app/calibre-web && \
   tar xf \
